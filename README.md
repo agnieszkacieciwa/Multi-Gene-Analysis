@@ -57,8 +57,6 @@ This section creates a table of sorted growth stages based on mean expression le
 ### Genes with Lowest and Highest Expression
 Identifies genes with the lowest and highest expression levels at each growth stage. The results are presented in a table, highlighting genes that consistently exhibit extreme expression levels.
 
-![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/61432800-561e-43d9-b9cd-207b4296fb63)
-
 ### Correlation Heatmap
 Generates a heatmap to visualize the correlation between gene expression levels, aiding in the identification of genes with similar or opposite expression patterns.
 
