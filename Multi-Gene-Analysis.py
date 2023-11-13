@@ -10,6 +10,7 @@ from tabulate import tabulate
 
 # DATA LOADING FROM EXCEL FILE
 
+# Replace with your own file path 
 data = pd.read_excel(r'C:\Users\agnie\OneDrive\Pulpit\MultiGene.xls')
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     display(data)
@@ -187,6 +188,7 @@ plt.show()
 # HIERARCHICAL CLUSTERING
 
 # Read data from the Excel file
+# Replace with your own file path 
 gene_expression_data = pd.read_excel(r'C:\Users\agnie\OneDrive\Pulpit\MultiGene.xls', index_col=0 )
 
 # Standardize the data (scaling to mean=0 and variance=1)
