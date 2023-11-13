@@ -4,9 +4,7 @@
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-- [Usage](#usage)
+- [Prerequisites](#prerequisites)
 - [Analyses](#analyses)
   - [Time Series Analysis](#time-series-analysis)
   - [Mean Expression Levels and Bar Plot](#mean-expression-levels-and-bar-plot)
