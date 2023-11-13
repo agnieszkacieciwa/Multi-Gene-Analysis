@@ -35,7 +35,7 @@ By leveraging Python 3.11 and popular libraries like `pandas`, `seaborn`, `matpl
 ## Prerequisites
 
 - Python 3.11
-- Required Python packages (`pandas`, `seaborn`, `matplotlib`, `scikit-learn`, tabulate)
+- Required Python packages (`pandas`, `seaborn`, `matplotlib`, `scikit-learn`, `tabulate`)
 - Excel file "MultiGene.xls."
 
 
@@ -44,8 +44,12 @@ By leveraging Python 3.11 and popular libraries like `pandas`, `seaborn`, `matpl
 ### Time Series Analysis
 The time series analysis section visualizes gene expression changes across different growth stages. Each gene's expression is plotted over time to understand its dynamics during plant development.
 
+![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/582a5924-d003-4dc7-bf8b-0baf237448b5)
+
 ### Mean Expression Levels and Bar Plot
 The mean expression levels section calculates and visualizes the average gene expression levels, providing insights into the overall gene activity. The results are presented in a bar plot with a custom colormap.
+
+![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/b5f36aa5-6c9f-4831-bbca-837fee0c2d06)
 
 ### Table of Mean Expression for Growth Stages
 This section creates a table of sorted growth stages based on mean expression levels, offering a comparative view of gene expression patterns during different developmental stages.
@@ -53,11 +57,17 @@ This section creates a table of sorted growth stages based on mean expression le
 ### Genes with Lowest and Highest Expression
 Identifies genes with the lowest and highest expression levels at each growth stage. The results are presented in a table, highlighting genes that consistently exhibit extreme expression levels.
 
+![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/61432800-561e-43d9-b9cd-207b4296fb63)
+
 ### Correlation Heatmap
 Generates a heatmap to visualize the correlation between gene expression levels, aiding in the identification of genes with similar or opposite expression patterns.
 
+![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/4ea963bb-7277-41d2-a3f8-6ac0b5327dc9)
+
 ### Hierarchical Clustering
 Utilizes hierarchical clustering to group genes based on their expression patterns. The resulting dendrogram provides insights into relationships between genes and their potential functional connections.
+
+![obraz](https://github.com/agnieszkacieciwa/Multi-Gene-Analysis/assets/88035266/51cded44-b763-4d9d-b2cd-f01e17303f89)
 
 
 ## License
