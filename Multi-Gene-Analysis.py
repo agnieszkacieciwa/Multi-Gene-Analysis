@@ -106,28 +106,28 @@ plt.tight_layout()
 plt.show()
 
 
-# TABLE OF AVERAGE EXPRESSION 
+# TABLE OF MEAN EXPRESSION FOR GROWTH STAGES
 
 # Remove the 'sample name' column from the data
 data = data.drop(columns='sample name')
 
-# Calculate the average level of gene expression for each stage
-average_expression = data.mean(axis=1)
-average_expression_rounded = average_expression.round(3)
+# Calculate the mean level of gene expression for each stage
+mean_expression = data.mean(axis=1)
+mean_expression_rounded = mean_expression.round(3)
 
 # Create a DataFrame to store the results
 results_1 = pd.DataFrame({'Growth Stage': growth_stages,
-                        'Average Expression': average_expression_rounded})
+                        'Mean Expression': mean_expression_rounded})
 
-# Sort the developmental stages based on the average expression values
-sorted_results = results_1.sort_values(by='Average Expression', ascending=False)
+# Sort the developmental stages based on the mean expression values
+sorted_results = results_1.sort_values(by='Mean Expression', ascending=False)
 
-# Display the sorted growth stages and average expression values in a table
-table_data = sorted_results[['Growth Stage', 'Average Expression']].values.tolist()
-table_headers = ['Growth Stage', 'Average Expression']
+# Display the sorted growth stages and mean expression values in a table
+table_data = sorted_results[['Growth Stage', 'Mean Expression']].values.tolist()
+table_headers = ['Growth Stage', 'Mean Expression']
 table = tabulate(table_data, headers=table_headers, tablefmt='pretty')
 
-print("Sorted Growth Stages based on Average Expression:")
+print("Sorted Growth Stages based on Mean Expression:")
 print(table)
 
 
